@@ -5,6 +5,7 @@
   "main": "dist/cxml.js",
   "typings": "dist/cxml.d.ts",
   "scripts": {
+    "build": "tsc -p src",
     "tsc": "tsc",
     "prepublish": "tsc -p src",
     "test": "tsc -p test && node test/dir-example.js"
